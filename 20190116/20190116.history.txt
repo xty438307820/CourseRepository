@@ -1,0 +1,140 @@
+ 2002  ll
+ 2003  find /usr/include/ -name stdio.h|xargs ll
+ 2004  ll
+ 2005  clear
+ 2006  ls|wc -l
+ 2007  ls
+ 2008  find . -name "*.c"
+ 2009  find . -name "*.c"|wc -l
+ 2010  ls *.c
+ 2011  ls *.c|wc -l
+ 2012  cd ./20181011/
+ 2013  ls
+ 2014  find . -name *.c
+ 2015  find . -name *.c|xargs grep main
+ 2016  cd ..
+ 2017  ls
+ 2018  tar cvzf test.tar.gz test.cpp test.py test
+ 2019  rm -r test.cpp test.py test
+ 2020  ls test.tar.gz 
+ 2021  tar xvf test.tar.gz
+ 2022  ls
+ 2023  ssh root@192.168.2.100
+ 2024  ls -l
+ 2025  ls |grep ^d
+ 2026  ls -l
+ 2027  ls -l|grep ^d
+ 2028  ls -l|grep ^-
+ 2029  ssh root@192.168.2.100
+ 2030  clear
+ 2031  mkdir 20190116
+ 2032  cd 20190116
+ 2033  vim file1
+ 2034  ls
+ 2035  vim file1
+ 2036  cat file1 
+ 2037  cd ~
+ 2038  pwd
+ 2039  cd /home
+ 2040  touch file
+ 2041  mkdir dir
+ 2042  vim file1
+ 2043  ls
+ 2044  cd xiongda/
+ 2045  ls
+ 2046  vim examples.desktop 
+ 2047  cd ../luke
+ 2048  ls
+ 2049  cd 20190116
+ 2050  ls
+ 2051  vim file1 
+ 2052  ps -elf|grep vim
+ 2053  ls
+ 2054  vim file1 
+ 2055  ls -a
+ 2056  vim file1 
+ 2057  rm .file1.swp
+ 2058  kill -9 12082
+ 2059  ls
+ 2060  vim file1 
+ 2061  cd ..
+ 2062  ls .vimrc 
+ 2063  cat .vimrc 
+ 2064  cp .vimrc vimrc
+ 2065  kscp vimrc
+ 2066  sudo vim /usr/bin/kscp 
+ 2067  kscp vimrc 
+ 2068  history 
+ 2069  history |tail -50 >20190116.history.txt
+ 2070  kscp 20190116.history.txt
+ 2071  ls
+ 2072  ls 20190116.history.txt 
+ 2073  ifconfig
+ 2074  ping 192.168.2.100
+ 2075  cat /usr/bin/kscp 
+ 2076  rm 20190116.history.txt 
+ 2077  scp -r test@192.168.2.100:/wangdao/C_C++方向/短期班/Linux/`date +%Y%m%d`/code .
+ 2078  vim gscp
+ 2079  mv gscp 20190116/
+ 2080  cd 20190116/
+ 2081  ls
+ 2082  mv gscp gscp.sh
+ 2083  vim gscp.sh 
+ 2084  chmod +x gscp.sh 
+ 2085  ./gscp.sh 20190116.history.txt
+ 2086  vim gscp.sh 
+ 2087  ./gscp.sh 
+ 2088  ls
+ 2089  cat gscp.sh 
+ 2090  ls
+ 2091  scp file1 test@192.168.2.100:~
+ 2092  ls
+ 2093  vim 20190116.history.txt 
+ 2094  find ~ -name The*.txt
+ 2095  cp /home/luke/20180918/The_Holy_Bible.txt .
+ 2096  ls
+ 2097  vim The_Holy_Bible.txt 
+ 2098  file The_Holy_Bible.txt 
+ 2099  vim The_Holy_Bible.txt 
+ 2100  ls
+ 2101  cp ../*.c .
+ 2102  ls
+ 2103  vim main12.c 
+ 2104  vim main12.c \
+ 2105  vim main12.c
+ 2106  ls
+ 2107  vim file1 
+ 2108  ls -l
+ 2109  vim file1 
+ 2110  ls -l
+ 2111  vim +3 main12.c 
+ 2112  vim +/printf main12.c 
+ 2113  vim main12.c 
+ 2114  ls
+ 2115  grep main *.c
+ 2116  grep printf *.c
+ 2117  grep main *.c
+ 2118  sed "s/main/mian/g" main12.c 
+ 2119  cat main12.c
+ 2120  sed -i "s/main/mian/g" *.c
+ 2121  ls
+ 2122  grep main *.c
+ 2123  grep mian *.c
+ 2124  mkdir dir1
+ 2125  mv main12.c dir1
+ 2126  ls
+ 2127  find . -name *.c
+ 2128  find . -name "*.c"
+ 2129  find . -name "*.c"|xargs grep mian
+ 2130  find . -name "*.c"|xargs sed -i "s/mian/main/g"
+ 2131  find . -name "*.c"|xargs grep mian
+ 2132  find . -name "*.c"|xargs grep main
+ 2133  ls
+ 2134  cp ftruncate.c ftruncate1.c
+ 2135  vimdiff ftruncate.c ftruncate1.c
+ 2136  vim ftruncate1.c\
+ 2137  vim ftruncate1.c
+ 2138  vimdiff ftruncate.c ftruncate1.c
+ 2139  cd ~
+ 2140  history 
+ 2141  history |tail -140 >20190116.history.txt

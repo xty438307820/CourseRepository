@@ -1,0 +1,859 @@
+    1  ls
+    2  ping www.baidu.com
+    3  ls
+    4  sudo apt-get install vim
+    5  sudo rm /var/log/lock
+    6  ls
+    7  sudo apt-get install vim
+    8  top
+    9  free
+   10  sudo apt-get install ssh
+   11  ps -elf|grep ssh
+   12  ls
+   13  clear
+   14  sudo apt-get install vim
+   15  clear
+   16  top
+   17  free
+   18  ls
+   19  ps -elf|grep ssh
+   20  ls
+   21  exit
+   22  ping 192.168.3.75
+   23  ifconfig
+   24  ls
+   25  cd vmware-tools-distrib/
+   26  ls
+   27  sudo vmware-install.pl
+   28  sudo /vmware-install.pl
+   29  sudo ./vmware-install.pl
+   30  ls
+   31  sudo passwd
+   32  su
+   33  ls
+   34  clear
+   35  free
+   36  top
+   37  free
+   38  top
+   39  free
+   40  clear
+   41  ls
+   42  cat /etc/passwd
+   43  exit
+   44  ls
+   45  clear
+   46  adam@ubuntu:~$ total
+   47  The program 'total' is currently not installed. You can install it by typing:
+   48  sudo apt install radiance
+   49  ls
+   50  useradd -m test1 -s /bin/bash 
+   51  sudo useradd -m test1 -s /bin/bash
+   52  ls
+   53  passwd test1
+   54  sudo passwd test1
+   55  su test1
+   56  clear
+   57  /home/adam:/bin/bash
+   58  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+   59  test1:x:1001:1001::/home/test1:/bin/bash
+   60  /home/adam:/bin/bash
+   61  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+   62  test1:x:1001:1001::/home/test1:/bin/bash
+   63  /home/adam:/bin/bash
+   64  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+   65  test1:x:1001:1001::/home/test1:/bin/bash
+   66  ls
+   67  clea
+   68  clear
+   69  ls
+   70  /home/adam:/bin/bash
+   71  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+   72  test1:x:1001:1001::/home/test1:/bin/bash
+   73  ls
+   74  history
+   75  cat /etc/passwd
+   76  cd ..
+   77  ls
+   78  cd test1
+   79  cd ..
+   80  cd adam
+   81  sudo useradd test2
+   82  cd ..
+   83  ls
+   84  sudo passwd test2
+   85  ls
+   86  su test2
+   87  ls
+   88  sudo userdel test2
+   89  cat /etc/passwd
+   90  ls
+   91  cd adam
+   92  sudo userdel test2
+   93  kill 19497
+   94  sudo kill 19497
+   95  sudo userdel test2
+   96  history 
+   97  sudo kill -f 19497
+   98  man kill
+   99  sudo userdel test2
+  100  pross
+  101  sudo userdel test2
+  102  kill -9 19497
+  103  sudo kill -9 19497
+  104  ls
+  105  mkdir test
+  106  ls
+  107  ls -l
+  108  ls test
+  109  ls /test
+  110  ls ./test
+  111  ls -l test
+  112  rmdir -i test
+  113  ls
+  114  cp file test
+  115  ls test
+  116  ls file -l 
+  117  ls
+  118  cat /test/file
+  119  cat ./test/file
+  120  bash ./test/file
+  121  ls
+  122  move file file1
+  123  ls
+  124  move ./file ./file1
+  125  mv file file1`
+  126  ls
+  127  mv file file1
+  128  ls
+  129  cat -n file1
+  130  vim file1
+  131  ls
+  132  cd test
+  133  ls
+  134  cd ..
+  135  rm test
+  136  ls
+  137  rm -f test
+  138  rm -r test
+  139  ls
+  140  cp file1 file
+  141  ls
+  142  tree
+  143  sudo apt-get install tree
+  144  tree
+  145  sudo apt install tree
+  146  tree
+  147  sudo apt-get install tree
+  148  tree
+  149  sudo apt install tree
+  150  ping www.baidu.com
+  151  cd ..
+  152  cd..
+  153  cd ..
+  154  ping www.baidu.com
+  155  ifconfig
+  156  ping 192.168.135.130
+  157  ping 14.215.177.38
+  158  ping www.baidu.com
+  159  ifconfig
+  160  route
+  161  ls
+  162  cd 20190114
+  163  ls
+  164  cd xy
+  165  ls
+  166  tree
+  167  sudo apt-get install tree
+  168  tree
+  169  tree -a
+  170  tree ../
+  171  cd ..
+  172  tree
+  173  cd ..
+  174  tree
+  175  ls
+  176  cd 20190114
+  177  ls
+  178  cd xy
+  179  ls
+  180  ls -l
+  181  chmod file file1 755
+  182  ls
+  183  chmod file 755
+  184  chmod 755 file file1
+  185  ls
+  186  ls -l
+  187  find file
+  188  cd ..
+  189  fine file
+  190  find file
+  191  find ./ file
+  192  find ./ -name file
+  193  find ./ -name fi*
+  194  find ./ -name fil[a-z]?
+  195  find ./ -name fi* -a -type -
+  196  ls
+  197  ls -l
+  198  ls xy/ -l
+  199  find ./ -name fi* -a -type f
+  200  find ./ -name fi* -a -type d
+  201  find ./ ! -name file
+  202  find ./ -name file -o -name file1
+  203  ls
+  204  cd xy
+  205  ls -l
+  206  find ?
+  207  ?
+  208  find ./ -group adam
+  209  ls
+  210  ls -al
+  211  route -n
+  212  route
+  213  history 
+  214  find ./ -user adam
+  215  df
+  216  top
+  217  free
+  218  ls -l
+  219  cd ..
+  220  ls
+  221  cd ..
+  222  ls
+  223  cd 20190114
+  224  history 
+  225  history >20190114 徐天宇.txt
+  226  history >20190114_徐天宇.txt
+  227  ls
+  228  history 
+  229  ls
+  230  ls ../
+  231  ls
+  232  cs course
+  233  ls
+  234  cd course
+  235  ls
+  236  ls -l
+  237  ls 20190114
+  238  ls
+  239  cd 20190114
+  240  ls
+  241  cd xy
+  242  ls
+  243  ls -l
+  244  chmod 774 file
+  245  ls
+  246  ls -l
+  247  vim file
+  248  cat file
+  249  bash file
+  250  cat /bin/bash
+  251  sa
+  252  history 
+  253  ls
+  254  csh
+  255  tcsh
+  256  bash
+  257  /home/adam:/bin/bash
+  258  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+  259  test1:x:1001:1001::/home/test1:/bin/bash
+  260  /home/adam:/bin/bash
+  261  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+  262  test1:x:1001:1001::/home/test1:/bin/bash
+  263  ls
+  264  whereis Downloads
+  265  whereis examples.desktop
+  266  clear
+  267  ls -l
+  268  ls
+  269  ls -a
+  270  ls -al
+  271  ls -l
+  272  clear
+  273  top
+  274  free
+  275  ls
+  276  mkdir course
+  277  ls
+  278  cd course
+  279  ls
+  280  mkdir 20190114
+  281  ls
+  282  cd 20190114
+  283  ls
+  284  pwd
+  285  ls -l
+  286  ls
+  287  ls -a
+  288  .
+  289  ./
+  290  ls
+  291  ls -al
+  292  ls
+  293  ls -al
+  294  touch file
+  295  cd ..
+  296  ls
+  297  cd 20190114
+  298  ls
+  299  mkdir xy
+  300  cp file xy
+  301  ls
+  302  cd xy
+  303  ls
+  304  cd ..
+  305  rm -rf xy
+  306  ls
+  307  mkdir xy
+  308  cp file xy
+  309  cd xy
+  310  ls
+  311  cd ..
+  312  rm xy
+  313  rm -r xy
+  314  ls
+  315  cd ..
+  316  ls
+  317  cd 20190114
+  318  ls
+  319  vim file
+  320  rm file
+  321  ls
+  322  touch file
+  323  ls
+  324  ls -l
+  325  mkdir xy
+  326  cp file xy
+  327  ls
+  328  mv file xy
+  329  ls
+  330  xy
+  331  cd xy
+  332  mv xy ./
+  333  mv file ./
+  334  mv file ../
+  335  ls
+  336  cd ..
+  337  ls
+  338  cp file xy
+  339  mv -i file xy
+  340  ls
+  341  mv -i file xy
+  342  ls
+  343  cd xy
+  344  vim file
+  345  bash file
+  346  ls
+  347  top
+  348  free
+  349  total
+  350  ls
+  351  cd Videos
+  352  ls
+  353  ls ../
+  354  ls -l ../
+  355  dpkg-reconfigure tzdata
+  356  sudo dpkg-reconfigure tzdata
+  357  date
+  358  cd ..
+  359  ls
+  360  cd Desktop/
+  361  ls
+  362  cd ..
+  363  ls -a
+  364  cd ..
+  365  ls -a
+  366  cd adam
+  367  ls
+  368  ls -l
+  369  cd examples.desktop
+  370  date
+  371  date %y%m%d
+  372  date 
+  373  date
+  374  cd -
+  375  cd ~
+  376  ls
+  377  ls -l
+  378  pwd
+  379  ls
+  380  ls -l
+  381  ifconfig
+  382  route
+  383  ifconfig
+  384  his
+  385  ls
+  386  ls ./
+  387  ls ../
+  388  sudo userdel test2
+  389  cat /etc/passwd
+  390  sudo useradd -m test2 -s /bin/bash
+  391  ls ../
+  392  cat /etc/passwd
+  393  history 
+  394  ping www.baidu.com
+  395  ping 14.215.177.38
+  396  ping www.baidu.com
+  397  nmcli dev show
+  398  ifconfig
+  399  route
+  400  ping www.baidu.com
+  401  ifconfig
+  402  ls
+  403  cd course
+  404  ls
+  405  cd 20190114
+  406  ls
+  407  ls -l
+  408  vim 20190114
+  409  ls
+  410  rm 20190114
+  411  cd xty
+  412  cd xy
+  413  ls
+  414  ls -l
+  415  cat -n file
+  416  bash file
+  417  ls
+  418  ls -l
+  419  ls
+  420  cat &PATH
+  421  echo $PATH
+  422  ping www.baidu.com
+  423  ls
+  424  export PS1="\[\e[37;40m\][\[\e[32;40m\]\u\[\e[37;40m\]@\h \[\e[36;40m\]\w\[\e[0m\]]\\$ "
+  425  ls
+  426  cd course
+  427  ls
+  428  cd 20190115
+  429  ls
+  430  vim main.c
+  431  ls
+  432  cd course
+  433  ls
+  434  mkdir 20190115
+  435  ls
+  436  cd 20190115
+  437  ls
+  438  ll
+  439  ls -l
+  440  ll
+  441  man ll
+  442  ls
+  443  cd ..
+  444  ls
+  445  ifconfig
+  446  ping 192.168.3.75
+  447  ping www.baidu.com
+  448  ping 14.215.177.39
+  449  ll
+  450  alias
+  451  l
+  452  cat /bin/alias
+  453  cat /etc/alias
+  454  find ../ -name alias
+  455  ls
+  456  cd ..
+  457  pwd
+  458  find ./ -name alias
+  459  ls
+  460  cd adam
+  461  ls
+  462  cd course
+  463  ls
+  464  alias
+  465  export PS1="\[\e[37;40m\][\[\e[32;40m\]\u\[\e[37;40m\]@\h \[\e[36;40m\]\w\[\e[0m\]]\\$ "
+  466  ls
+  467  ls -lh
+  468  ls
+  469  cd course
+  470  ls
+  471  cd 20190115
+  472  ls
+  473  wc -l The_Holy_Bible.txt > file
+  474  cat -n file
+  475  vim main.c
+  476  echo aaa > main.c
+  477  ls
+  478  vim main.c
+  479  ./main.exe
+  480  ./main.exe > flie
+  481  ls
+  482  cat file
+  483  ./main.exe 2>file
+  484  cat -n file
+  485  vim main.c
+  486  ls
+  487  ls -l
+  488  ./main.exe
+  489  ls -l
+  490  ls -al
+  491  ls -lh
+  492  ls -al
+  493  ls -lh
+  494  cat file
+  495  ls
+  496  ls -l
+  497  vim file
+  498  ./main.exe 1> file
+  499  cat file
+  500  ./main.exe &> file
+  501  cat -n file
+  502  ./main.exe 2> file
+  503  cat file
+  504  ./main.exe &>> file
+  505  cat -file
+  506  cat -n file
+  507  head -2 file
+  508  tail -n 2 file
+  509  more file
+  510  less file
+  511  sort file
+  512  vim file
+  513  sort file
+  514  vim file
+  515  sort file
+  516  sort file > flie
+  517  cat -n file
+  518  sort file
+  519  sort file > file
+  520  cat file
+  521  cat -n file
+  522  vim file
+  523  ./main.exe &> file
+  524  ./main.exe >> file
+  525  vim file
+  526  cat file1
+  527  uniq file
+  528  cat file
+  529  sort file|uniq file
+  530  sort file|uniq
+  531  cat -n file
+  532  sort file|uniq|file1
+  533  sort file|uniq > file1
+  534  cat -n file1
+  535  ls
+  536  ls -lh
+  537  wc -l file
+  538  wc -c file
+  539  wc -m file
+  540  vim file
+  541  wc -c file
+  542  wc -m file
+  543  vim file
+  544  wc -w file
+  545  vim file
+  546  ;s
+  547  ls
+  548  ls -l
+  549  wc file
+  550  cat -n file
+  551  cd ..
+  552  pwd
+  553  ls ..
+  554  ls
+  555  cd ..
+  556  ls
+  557  la -a
+  558  ls -a
+  559  vim .vimrc
+  560  ls -a
+  561  cd course
+  562  ls
+  563  cd 20190115
+  564  ls
+  565  cat file
+  566  vim main.c
+  567  ls
+  568  du -h --max-depth=0
+  569  du -h --max-depth=1
+  570  ls
+  571  cd ..
+  572  ls -l
+  573  du -h --max-depth=1
+  574  du -h --max-depth=0
+  575  cd 20190115
+  576  ls
+  577  du -h --max-depth=0
+  578  df
+  579  find -mmin ./
+  580  find -mmin -5
+  581  find -mmin -5 ./
+  582  ls
+  583  find -mmin +5 
+  584  find -mmin -10
+  585  find -mmin -10 ../
+  586  find ./ -mmin -10
+  587  find ../ -mmin -10
+  588  ls
+  589  cd ..
+  590  ls
+  591  find -mmin -10
+  592  find ./20190115 -mmin -10
+  593  find ./20190115 -mmin -15
+  594  find -mmin -15
+  595  ls
+  596  cd ..
+  597  ls
+  598  find -mmin -20
+  599  find ./course -mmin -20
+  600  cd course
+  601  ls
+  602  cd 20190115
+  603  find ../ -name file
+  604  cd ..
+  605  pwd
+  606  find /home -name file
+  607  find /home -mmin -10
+  608  find /home -mmin -5
+  609  find /home -mmin -10
+  610  find /home -mmin -15
+  611  find /home -mmin -20
+  612  cd 20190115
+  613  ls
+  614  grep ^a file
+  615  ls
+  616  grep a file
+  617  grep a* file
+  618  grep  file
+  619  grep a* file
+  620  grep a. file
+  621  grep a.* file
+  622  grep ^a. file
+  623  grep ^a.* file
+  624  grep ^a* file
+  625  grep ^a.* file
+  626  grep -c  ^a.* file
+  627  grep -n ^a.* file
+  628  unmask
+  629  umask
+  630  ls -l
+  631  touch touch f
+  632  ls -l
+  633  umask
+  634  mkdir ddd
+  635  ls -l
+  636  umask 000
+  637  ls -l
+  638  touch ccc
+  639  ls -l
+  640  umask
+  641  rm ccc
+  642  mkdir ccc
+  643  ls -l
+  644  touch fff
+  645  ls -l
+  646  umask 0002
+  647  umask
+  648  ls
+  649  rm ccc
+  650  rm -r ccc
+  651  ls -l
+  652  rm f
+  653  ls
+  654  rm f
+  655  ls
+  656  rm f
+  657  ls
+  658  rm fff
+  659  ls -l
+  660  du -h
+  661  du -h --max-depth=0
+  662  du -h --max-depth=1
+  663  ls -l
+  664  du -h --max-depth=0 ./ddd
+  665  cd ddd
+  666  ls
+  667  du -h
+  668  cd ..
+  669  ls -l
+  670  ls -hl
+  671  file ddd
+  672  file main.exe
+  673  file main.c
+  674  file file
+  675  history 
+  676  df
+  677  df -h
+  678  du
+  679  dh -h
+  680  du -h
+  681  ls -l
+  682  cd ..
+  683  ls -l
+  684  du 
+  685  du -
+  686  du -h --max-depth=1
+  687  du -h --max-depth=0
+  688  ls -l
+  689  ls -lh
+  690  cd 20190115
+  691  du -h --max-depth=0
+  692  du -h --max-depth=1
+  693  du -h
+  694  ls
+  695  ls -l
+  696  ls -hl
+  697  tar cfv 20190115.tar *
+  698  ls -l
+  699  ls -lh
+  700  tar cfvr 20190115.tar
+  701  tar cfvr 20190115.tar.gz 20190115.tar 
+  702  tar cfvz 20190115.tar.gz 20190115.tar
+  703  ls -l
+  704  ls -lh
+  705  touch woban
+  706  vim woban
+  707  touch rv 20190115.tar woban
+  708  ls -l
+  709  touch rfv 20190115.tar woban
+  710  ls -l
+  711  rm touch
+  712  ls -l
+  713  rm rv
+  714  rm rfv
+  715  ls
+  716  tar rv 20190115.tar woban
+  717  tar rfv 20190115.tar woban
+  718  ls -l
+  719  rm woban
+  720  tar xfv 20190115.tar
+  721  ls -l
+  722  tar zvf 20190115.tar 200.gz
+  723  tar czvf 20190115.tar 200.gz
+  724  tar zvf 2019.gz 20190115.tar
+  725  tar czvf 2019.gz 20190115.tar
+  726  ls -l
+  727  rm 2019.gz
+  728  rm 20190115.tar
+  729  tar cfv 20190115.tar *
+  730  ls -l
+  731  tar zfv 2019.gz 20190115.tar
+  732  ls -l
+  733  tar czfv 2019.gz 20190115.tar
+  734  ls -l
+  735  tar xvf 20190115.tar ./ddd
+  736  ls -l
+  737  tar xvf 20190115.tar
+  738  tar vfx 20190115.tar
+  739  tar xzvf 20190115.tar.gz
+  740  ls -l
+  741  tar xzvf 20190115.tar.gz 
+  742  gzip main.c
+  743  ls -l
+  744  gzip -d main.c
+  745  ls -l
+  746  gzip The_Holy_Bible.txt 
+  747  ls -l
+  748  gzip -vd The_Holy_Bible.txt.gz 
+  749  bzip2 v The_Holy_Bible.txt 
+  750  ls -l
+  751  bz -dv The_Holy_Bible.txt.bz2 
+  752  bzip2 -dv The_Holy_Bible.txt.bz2 
+  753  ls -l
+  754  bzip2 -v The_Holy_Bible.txt 
+  755  bzip2 -vd The_Holy_Bible.txt.bz2 
+  756  ls -l
+  757  gzip v The_Holy_Bible.txt 
+  758  ls -l
+  759  gzip -dv The_Holy_Bible.txt.gz 
+  760  ls -l
+  761  ls -lh
+  762  ls -l
+  763  ls
+  764  cd ddd
+  765  ls
+  766  scp test@192.168.2.100/wangdao/C_C++方向/短期班/C/20190110/课件/The_Holy_Bible.txt .
+  767  scp test@192.168.2.100:/wangdao/C_C++方向/短期班/C/20190110/课件/The_Holy_Bible.txt .
+  768  ls -l
+  769  ls -lh
+  770  tar cvf holy.tar The_Holy_Bible.txt 
+  771  ls -l
+  772  tar xcvf holy.tar.gz holy.tar 
+  773  ls -l
+  774  tar czvf holy.tar.gz holy.tar
+  775  ls -l
+  776  tar xzvf holy.tar.gz 
+  777  ls -l
+  778  tar xvf holy.tar
+  779  ls -l
+  780  gzip -v The_Holy_Bible.txt 
+  781  ls -l
+  782  gzip -d The_Holy_Bible.txt.gz 
+  783  ls -l
+  784  gzip -v The_Holy_Bible.txt 
+  785  gzip -vd The_Holy_Bible.txt.gz 
+  786  bzip2 -v The_Holy_Bible.txt 
+  787  ls -l
+  788  bzip2 -vd The_Holy_Bible.txt.bz2 
+  789  ls -lh
+  790  du
+  791  du -h
+  792  df
+  793  du -h
+  794  cd ..
+  795  du -h 
+  796  du -h --max-depth=1
+  797  du -h --max-depth=0
+  798  ls -l
+  799  vim file
+  800  grep ^  file
+  801  grep \^ file
+  802  grep ^a file
+  803  grep \^ file
+  804  grep ^\^ file
+  805  grep *\^ file
+  806  grep ^\^ file
+  807  grep ^ file
+  808  grep / file
+  809  cat -n file
+  810  grep ^ file
+  811  grep \^ file
+  812  grep -F ^ file
+  813  grep -F \^ file
+  814  grep -F ^^ file
+  815  grep -Fc  ^ file
+  816  grep -F ^ file
+  817  ls -l
+  818  cat -n woban
+  819  grep a woban
+  820  grep f$ woban
+  821  cat f woban
+  822  grep f woban
+  823  grep -n f woban
+  824  grep -n woban
+  825  grep woban
+  826  cat -n woban
+  827  ls -l
+  828  vim flie
+  829  vim file
+  830  vim file1
+  831  iconv -f utf-8 -t gb2312 file1 > file2
+  832  vim file2
+  833  vim file1
+  834  tree
+  835  du
+  836  du -h
+  837  sort file
+  838  uniq file
+  839  sort file | uniq
+  840  wc file1
+  841  cat -n file1
+  842  wc file2
+  843  vim file2
+  844  cat -n file2
+  845  wc -l file2
+  846  wc -c file2
+  847  wc -w file2
+  848  wc file2
+  849  history
+  850  ls -l
+  851  cd ..
+  852  ls
+  853  cd 20190114
+  854  ls -l
+  855  cd 20190115
+  856  cd ..
+  857  cd 20190115
+  858  ls -l
+  859  history > 20190114_徐天宇.txt

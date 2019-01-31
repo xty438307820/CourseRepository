@@ -1,0 +1,226 @@
+    1  ls
+    2  ping www.baidu.com
+    3  ls
+    4  sudo apt-get install vim
+    5  sudo rm /var/log/lock
+    6  ls
+    7  sudo apt-get install vim
+    8  top
+    9  free
+   10  sudo apt-get install ssh
+   11  ps -elf|grep ssh
+   12  ls
+   13  clear
+   14  sudo apt-get install vim
+   15  clear
+   16  top
+   17  free
+   18  ls
+   19  ps -elf|grep ssh
+   20  ls
+   21  exit
+   22  ping 192.168.3.75
+   23  ifconfig
+   24  ls
+   25  cd vmware-tools-distrib/
+   26  ls
+   27  sudo vmware-install.pl
+   28  sudo /vmware-install.pl
+   29  sudo ./vmware-install.pl
+   30  ls
+   31  sudo passwd
+   32  su
+   33  ls
+   34  clear
+   35  free
+   36  top
+   37  free
+   38  top
+   39  free
+   40  clear
+   41  ls
+   42  cat /etc/passwd
+   43  exit
+   44  ls
+   45  clear
+   46  adam@ubuntu:~$ total
+   47  The program 'total' is currently not installed. You can install it by typing:
+   48  sudo apt install radiance
+   49  ls
+   50  useradd -m test1 -s /bin/bash 
+   51  sudo useradd -m test1 -s /bin/bash
+   52  ls
+   53  passwd test1
+   54  sudo passwd test1
+   55  su test1
+   56  clear
+   57  /home/adam:/bin/bash
+   58  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+   59  test1:x:1001:1001::/home/test1:/bin/bash
+   60  /home/adam:/bin/bash
+   61  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+   62  test1:x:1001:1001::/home/test1:/bin/bash
+   63  /home/adam:/bin/bash
+   64  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+   65  test1:x:1001:1001::/home/test1:/bin/bash
+   66  ls
+   67  clea
+   68  clear
+   69  ls
+   70  /home/adam:/bin/bash
+   71  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+   72  test1:x:1001:1001::/home/test1:/bin/bash
+   73  ls
+   74  history
+   75  cat /etc/passwd
+   76  cd ..
+   77  ls
+   78  cd test1
+   79  cd ..
+   80  cd adam
+   81  sudo useradd test2
+   82  cd ..
+   83  ls
+   84  sudo passwd test2
+   85  ls
+   86  su test2
+   87  ls
+   88  sudo userdel test2
+   89  cat /etc/passwd
+   90  ls
+   91  cd adam
+   92  sudo userdel test2
+   93  kill 19497
+   94  sudo kill 19497
+   95  sudo userdel test2
+   96  history 
+   97  sudo kill -f 19497
+   98  man kill
+   99  sudo userdel test2
+  100  pross
+  101  sudo userdel test2
+  102  kill -9 19497
+  103  sudo kill -9 19497
+  104  ls
+  105  mkdir test
+  106  ls
+  107  ls -l
+  108  ls test
+  109  ls /test
+  110  ls ./test
+  111  ls -l test
+  112  rmdir -i test
+  113  ls
+  114  cp file test
+  115  ls test
+  116  ls file -l 
+  117  ls
+  118  cat /test/file
+  119  cat ./test/file
+  120  bash ./test/file
+  121  ls
+  122  move file file1
+  123  ls
+  124  move ./file ./file1
+  125  mv file file1`
+  126  ls
+  127  mv file file1
+  128  ls
+  129  cat -n file1
+  130  vim file1
+  131  ls
+  132  cd test
+  133  ls
+  134  cd ..
+  135  rm test
+  136  ls
+  137  rm -f test
+  138  rm -r test
+  139  ls
+  140  cp file1 file
+  141  ls
+  142  tree
+  143  sudo apt-get install tree
+  144  tree
+  145  sudo apt install tree
+  146  tree
+  147  sudo apt-get install tree
+  148  tree
+  149  sudo apt install tree
+  150  ping www.baidu.com
+  151  cd ..
+  152  cd..
+  153  cd ..
+  154  ping www.baidu.com
+  155  ifconfig
+  156  ping 192.168.135.130
+  157  ping 14.215.177.38
+  158  ping www.baidu.com
+  159  ifconfig
+  160  route
+  161  ls
+  162  cd 20190114
+  163  ls
+  164  cd xy
+  165  ls
+  166  tree
+  167  sudo apt-get install tree
+  168  tree
+  169  tree -a
+  170  tree ../
+  171  cd ..
+  172  tree
+  173  cd ..
+  174  tree
+  175  ls
+  176  cd 20190114
+  177  ls
+  178  cd xy
+  179  ls
+  180  ls -l
+  181  chmod file file1 755
+  182  ls
+  183  chmod file 755
+  184  chmod 755 file file1
+  185  ls
+  186  ls -l
+  187  find file
+  188  cd ..
+  189  fine file
+  190  find file
+  191  find ./ file
+  192  find ./ -name file
+  193  find ./ -name fi*
+  194  find ./ -name fil[a-z]?
+  195  find ./ -name fi* -a -type -
+  196  ls
+  197  ls -l
+  198  ls xy/ -l
+  199  find ./ -name fi* -a -type f
+  200  find ./ -name fi* -a -type d
+  201  find ./ ! -name file
+  202  find ./ -name file -o -name file1
+  203  ls
+  204  cd xy
+  205  ls -l
+  206  find ?
+  207  ?
+  208  find ./ -group adam
+  209  ls
+  210  ls -al
+  211  route -n
+  212  route
+  213  history 
+  214  find ./ -user adam
+  215  df
+  216  top
+  217  free
+  218  ls -l
+  219  cd ..
+  220  ls
+  221  cd ..
+  222  ls
+  223  cd 20190114
+  224  history 
+  225  history >20190114 徐天宇.txt
+  226  history >20190114_徐天宇.txt

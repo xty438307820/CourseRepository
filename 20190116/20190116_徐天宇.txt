@@ -1,0 +1,850 @@
+    1  ls
+    2  ping www.baidu.com
+    3  ls
+    4  sudo apt-get install vim
+    5  sudo rm /var/log/lock
+    6  ls
+    7  sudo apt-get install vim
+    8  top
+    9  free
+   10  sudo apt-get install ssh
+   11  ps -elf|grep ssh
+   12  ls
+   13  clear
+   14  sudo apt-get install vim
+   15  clear
+   16  top
+   17  free
+   18  ls
+   19  ps -elf|grep ssh
+   20  ls
+   21  exit
+   22  ping 192.168.3.75
+   23  ifconfig
+   24  ls
+   25  cd vmware-tools-distrib/
+   26  ls
+   27  sudo vmware-install.pl
+   28  sudo /vmware-install.pl
+   29  sudo ./vmware-install.pl
+   30  ls
+   31  sudo passwd
+   32  su
+   33  ls
+   34  clear
+   35  free
+   36  top
+   37  free
+   38  top
+   39  free
+   40  clear
+   41  ls
+   42  cat /etc/passwd
+   43  exit
+   44  ls
+   45  clear
+   46  adam@ubuntu:~$ total
+   47  The program 'total' is currently not installed. You can install it by typing:
+   48  sudo apt install radiance
+   49  ls
+   50  useradd -m test1 -s /bin/bash 
+   51  sudo useradd -m test1 -s /bin/bash
+   52  ls
+   53  passwd test1
+   54  sudo passwd test1
+   55  su test1
+   56  clear
+   57  /home/adam:/bin/bash
+   58  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+   59  test1:x:1001:1001::/home/test1:/bin/bash
+   60  /home/adam:/bin/bash
+   61  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+   62  test1:x:1001:1001::/home/test1:/bin/bash
+   63  /home/adam:/bin/bash
+   64  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+   65  test1:x:1001:1001::/home/test1:/bin/bash
+   66  ls
+   67  clea
+   68  clear
+   69  ls
+   70  /home/adam:/bin/bash
+   71  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+   72  test1:x:1001:1001::/home/test1:/bin/bash
+   73  ls
+   74  history
+   75  cat /etc/passwd
+   76  cd ..
+   77  ls
+   78  cd test1
+   79  cd ..
+   80  cd adam
+   81  sudo useradd test2
+   82  cd ..
+   83  ls
+   84  sudo passwd test2
+   85  ls
+   86  su test2
+   87  ls
+   88  sudo userdel test2
+   89  cat /etc/passwd
+   90  ls
+   91  cd adam
+   92  sudo userdel test2
+   93  kill 19497
+   94  sudo kill 19497
+   95  sudo userdel test2
+   96  history 
+   97  sudo kill -f 19497
+   98  man kill
+   99  sudo userdel test2
+  100  pross
+  101  sudo userdel test2
+  102  kill -9 19497
+  103  sudo kill -9 19497
+  104  ls
+  105  mkdir test
+  106  ls
+  107  ls -l
+  108  ls test
+  109  ls /test
+  110  ls ./test
+  111  ls -l test
+  112  rmdir -i test
+  113  ls
+  114  cp file test
+  115  ls test
+  116  ls file -l 
+  117  ls
+  118  cat /test/file
+  119  cat ./test/file
+  120  bash ./test/file
+  121  ls
+  122  move file file1
+  123  ls
+  124  move ./file ./file1
+  125  mv file file1`
+  126  ls
+  127  mv file file1
+  128  ls
+  129  cat -n file1
+  130  vim file1
+  131  ls
+  132  cd test
+  133  ls
+  134  cd ..
+  135  rm test
+  136  ls
+  137  rm -f test
+  138  rm -r test
+  139  ls
+  140  cp file1 file
+  141  ls
+  142  tree
+  143  sudo apt-get install tree
+  144  tree
+  145  sudo apt install tree
+  146  tree
+  147  sudo apt-get install tree
+  148  tree
+  149  sudo apt install tree
+  150  ping www.baidu.com
+  151  cd ..
+  152  cd..
+  153  cd ..
+  154  ping www.baidu.com
+  155  ifconfig
+  156  ping 192.168.135.130
+  157  ping 14.215.177.38
+  158  ping www.baidu.com
+  159  ifconfig
+  160  route
+  161  ls
+  162  cd 20190114
+  163  ls
+  164  cd xy
+  165  ls
+  166  tree
+  167  sudo apt-get install tree
+  168  tree
+  169  tree -a
+  170  tree ../
+  171  cd ..
+  172  tree
+  173  cd ..
+  174  tree
+  175  ls
+  176  cd 20190114
+  177  ls
+  178  cd xy
+  179  ls
+  180  ls -l
+  181  chmod file file1 755
+  182  ls
+  183  chmod file 755
+  184  chmod 755 file file1
+  185  ls
+  186  ls -l
+  187  find file
+  188  cd ..
+  189  fine file
+  190  find file
+  191  find ./ file
+  192  find ./ -name file
+  193  find ./ -name fi*
+  194  find ./ -name fil[a-z]?
+  195  find ./ -name fi* -a -type -
+  196  ls
+  197  ls -l
+  198  ls xy/ -l
+  199  find ./ -name fi* -a -type f
+  200  find ./ -name fi* -a -type d
+  201  find ./ ! -name file
+  202  find ./ -name file -o -name file1
+  203  ls
+  204  cd xy
+  205  ls -l
+  206  find ?
+  207  ?
+  208  find ./ -group adam
+  209  ls
+  210  ls -al
+  211  route -n
+  212  route
+  213  history 
+  214  find ./ -user adam
+  215  df
+  216  top
+  217  free
+  218  ls -l
+  219  cd ..
+  220  ls
+  221  cd ..
+  222  ls
+  223  cd 20190114
+  224  history 
+  225  history >20190114 徐天宇.txt
+  226  history >20190114_徐天宇.txt
+  227  ls
+  228  history 
+  229  ls
+  230  ls ../
+  231  ls
+  232  cs course
+  233  ls
+  234  cd course
+  235  ls
+  236  ls -l
+  237  ls 20190114
+  238  ls
+  239  cd 20190114
+  240  ls
+  241  cd xy
+  242  ls
+  243  ls -l
+  244  chmod 774 file
+  245  ls
+  246  ls -l
+  247  vim file
+  248  cat file
+  249  bash file
+  250  cat /bin/bash
+  251  sa
+  252  history 
+  253  ls
+  254  csh
+  255  tcsh
+  256  bash
+  257  /home/adam:/bin/bash
+  258  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+  259  test1:x:1001:1001::/home/test1:/bin/bash
+  260  /home/adam:/bin/bash
+  261  sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+  262  test1:x:1001:1001::/home/test1:/bin/bash
+  263  ls
+  264  whereis Downloads
+  265  whereis examples.desktop
+  266  clear
+  267  ls -l
+  268  ls
+  269  ls -a
+  270  ls -al
+  271  ls -l
+  272  clear
+  273  top
+  274  free
+  275  ls
+  276  mkdir course
+  277  ls
+  278  cd course
+  279  ls
+  280  mkdir 20190114
+  281  ls
+  282  cd 20190114
+  283  ls
+  284  pwd
+  285  ls -l
+  286  ls
+  287  ls -a
+  288  .
+  289  ./
+  290  ls
+  291  ls -al
+  292  ls
+  293  ls -al
+  294  touch file
+  295  cd ..
+  296  ls
+  297  cd 20190114
+  298  ls
+  299  mkdir xy
+  300  cp file xy
+  301  ls
+  302  cd xy
+  303  ls
+  304  cd ..
+  305  rm -rf xy
+  306  ls
+  307  mkdir xy
+  308  cp file xy
+  309  cd xy
+  310  ls
+  311  cd ..
+  312  rm xy
+  313  rm -r xy
+  314  ls
+  315  cd ..
+  316  ls
+  317  cd 20190114
+  318  ls
+  319  vim file
+  320  rm file
+  321  ls
+  322  touch file
+  323  ls
+  324  ls -l
+  325  mkdir xy
+  326  cp file xy
+  327  ls
+  328  mv file xy
+  329  ls
+  330  xy
+  331  cd xy
+  332  mv xy ./
+  333  mv file ./
+  334  mv file ../
+  335  ls
+  336  cd ..
+  337  ls
+  338  cp file xy
+  339  mv -i file xy
+  340  ls
+  341  mv -i file xy
+  342  ls
+  343  cd xy
+  344  vim file
+  345  bash file
+  346  ls
+  347  top
+  348  free
+  349  total
+  350  ls
+  351  cd Videos
+  352  ls
+  353  ls ../
+  354  ls -l ../
+  355  dpkg-reconfigure tzdata
+  356  sudo dpkg-reconfigure tzdata
+  357  date
+  358  cd ..
+  359  ls
+  360  cd Desktop/
+  361  ls
+  362  cd ..
+  363  ls -a
+  364  cd ..
+  365  ls -a
+  366  cd adam
+  367  ls
+  368  ls -l
+  369  cd examples.desktop
+  370  date
+  371  date %y%m%d
+  372  date 
+  373  date
+  374  cd -
+  375  cd ~
+  376  ls
+  377  ls -l
+  378  pwd
+  379  ls
+  380  ls -l
+  381  ifconfig
+  382  route
+  383  ifconfig
+  384  his
+  385  ls
+  386  ls ./
+  387  ls ../
+  388  sudo userdel test2
+  389  cat /etc/passwd
+  390  sudo useradd -m test2 -s /bin/bash
+  391  ls ../
+  392  cat /etc/passwd
+  393  history 
+  394  ping www.baidu.com
+  395  ping 14.215.177.38
+  396  ping www.baidu.com
+  397  nmcli dev show
+  398  ifconfig
+  399  route
+  400  ping www.baidu.com
+  401  ifconfig
+  402  ls
+  403  cd course
+  404  ls
+  405  cd 20190114
+  406  ls
+  407  ls -l
+  408  vim 20190114
+  409  ls
+  410  rm 20190114
+  411  cd xty
+  412  cd xy
+  413  ls
+  414  ls -l
+  415  cat -n file
+  416  bash file
+  417  ls
+  418  ls -l
+  419  ls
+  420  cat &PATH
+  421  echo $PATH
+  422  ping www.baidu.com
+  423  ls
+  424  export PS1="\[\e[37;40m\][\[\e[32;40m\]\u\[\e[37;40m\]@\h \[\e[36;40m\]\w\[\e[0m\]]\\$ "
+  425  ls
+  426  cd course
+  427  ls
+  428  cd 20190115
+  429  ls
+  430  vim main.c
+  431  ls
+  432  cd course
+  433  ls
+  434  mkdir 20190115
+  435  ls
+  436  cd 20190115
+  437  ls
+  438  ll
+  439  ls -l
+  440  ll
+  441  man ll
+  442  ls
+  443  cd ..
+  444  ls
+  445  ifconfig
+  446  ping 192.168.3.75
+  447  ping www.baidu.com
+  448  ping 14.215.177.39
+  449  ll
+  450  alias
+  451  l
+  452  cat /bin/alias
+  453  cat /etc/alias
+  454  find ../ -name alias
+  455  ls
+  456  cd ..
+  457  pwd
+  458  find ./ -name alias
+  459  ls
+  460  cd adam
+  461  ls
+  462  cd course
+  463  ls
+  464  alias
+  465  ls
+  466  ping www.baidu.com
+  467  ping 192.168.135.130
+  468  ifcongfi
+  469  ifconfig
+  470  route
+  471  ls
+  472  ifconfig
+  473  ping 127.0.0.1
+  474  ping www.baidu.com
+  475  ifconfig
+  476  ping www.baidu.com
+  477  sudo ifconfig ens33 down
+  478  sudo ifconfig ens33 up
+  479  ifconfig
+  480  ping www.baidu.com
+  481  route
+  482  sudo ifconfig ens33 down
+  483  sudo ifconfig ens33 up
+  484  ifconfig
+  485  route
+  486  ping www.baidu.com
+  487  ls
+  488  ping www.baidu.com
+  489  ls
+  490  ping 192.168.3.75
+  491  ipconfig
+  492  sudo ifconfig ens33 down
+  493  sudo ifconfig ens33 up
+  494  ls
+  495  confid
+  496  ifconfig
+  497  ping 192.168.3.75
+  498  ping www.baidu.com
+  499  ping 192.168.3.75
+  500  sudo ifconfig ens33 down
+  501  sudo ifconfig ens33 up
+  502  ifconfig 
+  503  ping 192.168.3.75
+  504  ping www.baidu.com
+  505  sudo ifconfig ens33 down
+  506  sudo ifconfig ens33 up
+  507  ls
+  508  ifconfig 
+  509  ifconfig
+  510  sudo ifconfig ens33 down
+  511  sudo ifconfig ens33 up
+  512  ifconfig
+  513  ping 192.168.3.75
+  514  sudo ifconfig ens33 down
+  515  sudo ifconfig ens33 up
+  516  ifconfig 
+  517  ping 192.168.3.75
+  518  sudo ifconfig ens33 down
+  519  sudo ifconfig ens33 up
+  520  ls
+  521  ping 192.168.3.75
+  522  ping www.baidu.com
+  523  ping 192.168.130.2
+  524  ping 192.168.135.2
+  525  route
+  526  ping www.baidu.com
+  527  ping 14.215.177.38
+  528  ping 192.168.3.75
+  529  ls
+  530  ll
+  531  l
+  532  cd course
+  533  ls
+  534  cd 20190115
+  535  ls
+  536  touch file
+  537  vim file
+  538  cat -n
+  539  cat -n file
+  540  cat -b file
+  541  tail -1 file
+  542  tail -2 file
+  543  head -1 file
+  544  head -2 file
+  545  wc -l file
+  546  wc -c file
+  547  vim file
+  548  wc -c file
+  549  ls -l
+  550  sudo apt-get install gcc
+  551  gcc
+  552  gcc -v
+  553  dpkg-reconfigure -plow unattended-upgrades
+  554  sudo dpkg-reconfigure -plow unattended-upgrades
+  555  ls
+  556  ./main.exe
+  557  ls
+  558  ls -l
+  559  history 
+  560  ls
+  561  ls -lh
+  562  du -h
+  563  ls
+  564  cd course
+  565  du -h
+  566  history 
+  567  find ./ -name alias
+  568  ls
+  569  whereis 20190115
+  570  which 20190115
+  571  cd 20190115
+  572  ls
+  573  whereis file
+  574  which file
+  575  whereis ls
+  576  which ls
+  577  ls -l
+  578  which main.exe
+  579  whereis main.exe
+  580  which ./main.exe
+  581  whereis ./main.exe
+  582  ls -lh
+  583  cd ..
+  584  ls
+  585  mkdir 20190116
+  586  ls
+  587  cd 20190116
+  588  ls
+  589  pwd
+  590  ls
+  591  scp test@192.168.2.100:/wangdao/C_C++方向/短期班/Linux/20190116/code/vimrc ~/.vimrc
+  592  cd ..
+  593  cat -n .vimrc
+  594  cd course
+  595  ls
+  596  cd 20190116
+  597  ls
+  598  cd ..
+  599  cd 20190115
+  600  ls
+  601  vim file
+  602  ls -l
+  603  vim main.c
+  604  find -mmin
+  605  find -mmin -5
+  606  find -mmin -10
+  607  find -mmin -10 -maxdepth 1
+  608  find -mmin -10 -maxdepth 2
+  609  find -mmin -10 -maxdepth 0
+  610  find -mmin -10 -maxdepth 1
+  611  ls
+  612  grep -name *.c
+  613  find -name *.c
+  614  cd ddd
+  615  touch maa.c
+  616  ls
+  617  cd ..
+  618  find -name *.c
+  619  find -name "*.c"
+  620  find -name *.c -maxdepth 2
+  621  find -name *.c -maxdepth 1
+  622  find -name *.c
+  623  find -name "*.c"
+  624  find -name '*.c'
+  625  find -name '*.c
+  626  find -name *.c
+  627  find -name "*.c"
+  628  ls -l
+  629  ls -lal
+  630  find main.c
+  631  find -name main.c
+  632  find -name ma*.c
+  633  find -name "ma*.c"
+  634  find -name ma?.c
+  635  find -name ma*?.c
+  636  find -name "ma*?.c"
+  637  ;
+  638  ls
+  639  vim file1
+  640  cd ..
+  641  cd 20190116
+  642  ls
+  643  touch  file
+  644  vim file
+  645  ls -l
+  646  rm file
+  647  cd ..
+  648  ls
+  649  cat -n .vimrc
+  650  ls
+  651  cd course
+  652  ls
+  653  cd 20190116
+  654  ls
+  655  vim file
+  656  ls -l
+  657  ls -al
+  658  la -al
+  659  -s -a
+  660  ls -a
+  661  ls -al
+  662  ping 192.168.2.100
+  663  ls -l
+  664  vim file
+  665  ls -l
+  666  vim file
+  667  ls
+  668  cd course
+  669  ls
+  670  cd 20190116
+  671  ls
+  672  rm main.o
+  673  ls
+  674  gcc -c main.c
+  675  ls 
+  676  ls
+  677  gdb main.exe
+  678  ls
+  679  vim file
+  680  vim p1.sh
+  681  ls -l
+  682  ./p1.sh
+  683  bash p1.sh
+  684  chmod +x p1.sh
+  685  ls -l
+  686  ./p1.sh
+  687  ls -l
+  688  bash p1.sh
+  689  sh p1.sh
+  690  bash p1.sh
+  691  chmod -x p1.sh
+  692  ls -l
+  693  ./p1.sh
+  694  bash p1.sh
+  695  ls
+  696  mkdir ddd
+  697  cd ddd
+  698  ls
+  699  vim a.c
+  700  vim b.c
+  701  ls
+  702  find ./ -name "*.c" | xargs rm -rf
+  703  ls
+  704  vim p1.sh
+  705  bash p1.sh
+  706  vim p1.sh
+  707  bash p1.sh
+  708  vim p1.sh
+  709  bash p1.sh
+  710  vim p1.sh
+  711  bash p1.sh
+  712  vim p1.sh
+  713  bash p1.sh
+  714  vim p1.sh
+  715  bash p1.sh
+  716  vim p1.sh
+  717  bash p1.sh
+  718  vim p1.sh
+  719  bash p1.sh
+  720  vim p1.sh
+  721  bash p1.sh
+  722  vim p1.sh
+  723  bash p1.sh
+  724  vim p1.sh
+  725  bash p1.sh
+  726  vim p1.sh
+  727  bash p1.sh
+  728  vim p1.sh
+  729  bash p1.sh
+  730  vim p1.sh
+  731  bash p1.sh
+  732  vim p1.sh
+  733  bash p1.sh
+  734  vim p1.sh
+  735  bash p1.sh
+  736  vim p1.sh
+  737  bash p1.sh
+  738  vim p1.sh
+  739  bash p1.sh
+  740  pwd
+  741  vim p1.sh
+  742  bash p1.sh
+  743  cd ..
+  744  find ./ -name *.c
+  745  find ./ -name main.c
+  746  find ./ -name *.c
+  747  find ./ -name "*.c"
+  748  find ./ -name *.c
+  749  cd ..
+  750  ls
+  751  find ./ -name *.c
+  752  find ./ -name "*.c"
+  753  touch a.c
+  754  find ./ -name *.c
+  755  find ./ -name "*.c"
+  756  rm a.c
+  757  ls
+  758  cd 20190116
+  759  ls
+  760  cd ddd
+  761  ls
+  762  p1.sh
+  763  aaa | echo
+  764  ls -l
+  765  ls -l | touch b
+  766  ls
+  767  vim b
+  768  ls -l | b
+  769  ls -l > b
+  770  vim b
+  771  echo path
+  772  echo $path
+  773  echo $PATH
+  774  ls -l
+  775  echo $PATH
+  776  ls -l
+  777  bash p1.sh
+  778  ls -l
+  779  vim p1.sh
+  780  echo $PATH
+  781  env
+  782  export
+  783  env
+  784  export
+  785  echo $PATH
+  786  ls
+  787  vim p1.sh
+  788  bash p1.sh aaa bbb
+  789  vim p1.sh
+  790  bash p1.sh
+  791  vim p1.sh
+  792  bash p1.sh aaa bbb
+  793  vim p1.sh
+  794  bash p1.sh aaa bbb
+  795  vim p1.sh
+  796  bash p1.sh 111 222
+  797  vim p1.sh
+  798  bash p1.sh
+  799  vim p1.sh
+  800  bash p1.sh
+  801  vim p1.sh
+  802  bash p1.sh
+  803  bash p1.sh 111 222
+  804  vim p1.sh
+  805  bash p1.sh 111 222
+  806  vim p1.sh
+  807  bash p1.sh
+  808  bash p1.sh 111 222
+  809  vim p1.sh
+  810  bash p1.sh
+  811  vim test1.sh
+  812  vim test2.sh
+  813  vim test3.sh
+  814  bash test2.sh
+  815  bash test3.sh
+  816  vim test1.sh
+  817  bash test2.sh
+  818  bash test3.sh
+  819  vim test1.sh
+  820  bash test2.sh
+  821  bash test3.sh
+  822  vim test1.sh
+  823  bash test1.sh
+  824  vim test1.sh
+  825  bash test1.sh
+  826  vim test1.sh
+  827  bash test1.sh
+  828  vim test1.sh
+  829  bash test1.sh
+  830  vim test1.sh
+  831  bash test1.sh
+  832  vim test1.sh
+  833  bash test1.sh
+  834  vim test1.sh
+  835  bash test1.sh
+  836  vim test1.sh
+  837  bash test1.sh
+  838  vim test1.sh
+  839  bash test1.sh
+  840  vim test1.sh
+  841  bash test1.sh
+  842  vim test1.sh
+  843  bash test1.sh
+  844  vim test1.sh
+  845  ls
+  846  history 
+  847  ls
+  848  cd ..
+  849  ls
+  850  history > 20190116_徐天宇.txt
