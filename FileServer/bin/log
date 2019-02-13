@@ -1,0 +1,7 @@
+client 192.168.135.130 48654 connect Wed Feb 13 20:13:10 2019
+adam: ls Wed Feb 13 20:13:14 2019
+adam: puts test Wed Feb 13 20:13:14 2019
+adam: ls Wed Feb 13 20:13:14 2019
+client 192.168.135.130 48656 connect Wed Feb 13 20:13:23 2019
+xty: ls Wed Feb 13 20:13:27 2019
+xty: puts test Wed Feb 13 20:13:27 2019
